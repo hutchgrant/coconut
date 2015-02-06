@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/group1">
+        <item android:id="@+id/New" android:title="New"></item>
+    <item android:id="@+id/Move" android:title="Move"></item><item android:id="@+id/Remove" android:title="Remove"></item></group>
+    
+    
+    <group android:id="@+id/group2">
+        <item android:id="@+id/Send" android:title="Send"></item>
+    </group>
+    
+
+</menu>

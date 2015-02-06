@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Coconut</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_status"/>
+    <string name="greeting_status">Welcome, %s.</string>
+    <string name="greeting_status_sign_in_required">Sign-in required</string>
+    <string name="signed_in_status">Signed in.</string>
+    <string name="signed_out_status">Signed out.</string>
+        <string name="sign_out_button_name">Sign out</string>
+    <string name="revoke_access_button_name">Revoke access</string>
+            <string name="list_moments_title">Touch a moment to delete</string>
+                <string name="progress_message">Signing in to Google&#8230;</string>
+           <string name="edit">Edit</string> 
+          <string name="create">Add</string> 
+            <string name="remove">Remove</string> 
+    <string name="plus_write_moment_status">Saving moment</string>
+    
+    
+        <string name="menu_settings">Settings</string>
+    <string name="take_picture_title">Take picture</string>
+    <string name="active_theme">Go to active theme</string>
+    <string name="profile">Profile</string>
+    <string name="all_themes">All Themes</string>
+    <string name="title_activity_allthemes">Themes</string>
+    <string name="title_activity_view_image">View Image</string>
+    <string name="loading_progress">Loading…</string>
+    <string name="toast_connect_wifi">Notice: uploading images over 3g may cost you money.</string>
+    <string name="upload_success">Uploaded photo!</string>
+    <string name="upload_failure">Unable to upload photo.</string>
+    <string name="vote_count">Vote Count: %d</string>
+    <string name="vote_count_zero">Vote Count: 0</string>
+    <string name="vote_success">Voted!</string>
+    <string name="vote_share_text">Check out this image on PhotoHunt. #photohunt</string>
+    <string name="select_picture_title">Select Picture</string>
+    <string name="share">Share</string>
+    <string name="upload_menu_title">Upload</string>
+    <string name="sign_in_menu_title">Sign in</string>
+    <string name="sign_out_menu_title">Sign out</string>
+    <string name="profile_menu_title">Profile</string>
+    <string name="send_feedback_title">Send feedback</string>
+    <string name="sign_in_required">You must first sign in.</string>
+    <string name="delete_success">Deleted successfully.</string>
+    <string name="vote_share_theme_text">Check out this %s image on #photohunt.</string>
+    <string name="unknown_user">Unknown User</string>
+    <string name="delete_failure">Delete failed.</string>
+    <string name="vote_failure">Vote failed.</string>
+    <string name="refresh_menu_title">Refresh</string>
+    <string name="title_activity_about">About PhotoHunt</string>
+    <string name="about_menu_title">About</string>
+    <string name="gallery_menu_title">Gallery</string>
+    <string name="my_photos">My Photos</string>
+    <string name="photos_from_friends">Photos from Friends</string>
+    <string name="all_photos">All Photos</string>
+    <string name="dialog_select_theme">Select Theme</string>
+    <string name="change_theme_menu_title">Change Theme</string>
+    <string name="author_image">Author Image</string>
+    <string name="contributed_photo">Contributed Photo</string>
+    <string name="delete_photo">Delete Photo</string>
+    <string name="vote">Vote</string>
+    <string name="promote">Promote</string>
+    <string name="version">Version:</string>
+    <string name="unknown">unknown</string>
+    <string name="play_services">Play Services:</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="activity_summary">Activity Summary</string>
+    <string name="disconnect_menu_title">Disconnect</string>
+    <string name="disconnect_failed">Disconnect failed.</string>
+    
+        <string name="ac_name_image_list">Image List Example</string>
+    <string name="ac_name_image_grid">Image Grid Example</string>
+    <string name="ac_name_image_pager">Image Pager Example</string>
+    <string name="ac_name_image_gallery">Image Gallery Example</string>
+    <!-- Labels -->
+    <string name="label_activity_examples">Activity Examples</string>
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="menu_item_pause_on_scroll">Pause on scroll</string>
+    <string name="menu_item_pause_on_fling">Pause on fling</string>
+    <string name="button_image_list">ListView</string>
+    <string name="button_image_grid">GridView</string>
+    <string name="button_image_pager">ViewPager</string>
+    <string name="button_image_gallery">Gallery</string>
+    <!-- Content descriptions -->
+    <string name="descr_image">Image</string>
+      <string name="album_name">New Album Name</string>
+     <string-array name="PreferenceSyncTimes">
+          <item >Select Sync time</item>
+          <item >5</item>
+          <item >10</item>
+          <item >30</item>
+          
+          
+      </string-array>
+      <string name="Invite">Invite</string>
+         <color name="bisque">#ffe4c4</color>
+    <color name="snow">#cdc9c9</color>
+    <color name="honeydew">#f0fff0</color>
+    <string name="Add_IMG">Add Image</string>
+    <string name="Refresh">refresh</string>
+    <string name="About">about</string>
+    <string name="Reset">reset</string>
+    <string name="Image_to_album">Add Image to Album</string>
+    <string name="Add_ALB">Add Album</string>
+    <string name="Send">Send</string>
+</resources>

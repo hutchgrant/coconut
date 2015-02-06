@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hutchgrant.coconut"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_GSERVICES" />
+     <uses-permission android:name="android.permission.READ_CONTACTS" />
+ <uses-feature android:name="android.hardware.camera" />
+ <uses-permission android:name="android.permission.CAMERA.AUTOFOCUS" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+ <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+ <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+     <!-- So that we can get the account name -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!--  Required if we need to invalidate access tokens -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:name="com.hutchgrant.app.TunaApp"   >
+             
+        <provider android:name="com.hutchgrant.provider.tunaprovider"
+			android:authorities="com.coconut.tunaprovider" />
+        <activity
+            android:name="com.hutchgrant.coconut.Coconut_main"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.hutchgrant.coconut.splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       <activity
+            android:name="com.hutchgrant.gallery.ImageGallery" > </activity>
+       <activity
+            android:name="com.hutchgrant.gallery.ImageGridActivity" > </activity>
+       <activity
+            android:name="com.hutchgrant.gallery.ImagePagerActivity" > </activity>
+       <activity
+            android:name="com.hutchgrant.networks.gplus.Gloading" ></activity>
+              <activity
+            android:name="com.hutchgrant.networks.gplus.GFriends" ></activity>
+       <activity
+            android:name="com.hutchgrant.networks.gplus.base" > </activity>
+       <activity
+            android:name="com.hutchgrant.coconut.LoginLauncher" > </activity>
+       <activity
+            android:name="com.hutchgrant.coconut.LauncherMain" > </activity>
+       <activity
+            android:name="com.hutchgrant.provider.tunatestdisplay" > </activity>
+       <activity
+           android:name="com.hutchgrant.camera.CamActivity" 
+           android:screenOrientation="sensorLandscape" ></activity>
+       <activity
+           android:name="com.hutchgrant.camera.CamDisplay"
+            android:screenOrientation="portrait" ></activity>
+       <activity
+           android:name="com.hutchgrant.contacts.MainList" 
+           android:label="Phone Contacts"
+           ></activity>
+       <activity
+           android:name="com.hutchgrant.contacts.LifeAlbumList"
+           android:label="Tuna Albums" ></activity>
+       <activity
+           android:name="com.hutchgrant.contacts.LifeGroupList"
+           android:label="Tuna Groups" ></activity>
+       <activity
+           android:name="com.hutchgrant.contacts.LifeContactList" 
+            android:label="Group Contacts"></activity>
+         <activity
+           android:name="com.hutchgrant.contacts.LifeInviteList" 
+            android:label="Invites"></activity>
+       <activity
+           android:name="com.hutchgrant.contacts.ContactDetails"
+           android:label="Contact Details"></activity>
+       <activity
+           android:name="com.hutchgrant.phone.smsMessage"
+           android:label="Tuna Messaging"
+           android:windowSoftInputMode="adjustResize"></activity>
+       <activity
+           android:name="com.hutchgrant.phone.phoneCall"
+           android:label="Contact Phone"></activity>
+       <activity
+           android:name="com.hutchgrant.coconut.Sync"
+           android:label="Sync Text"></activity>
+              <activity
+           android:name="com.hutchgrant.coconut.preferences"
+           android:label="Preferences"></activity>
+       <activity
+           android:name="com.hutchgrant.contacts.GroupList" ></activity>
+       <activity android:name="com.hutchgrant.imagesend.ImageSend"
+            android:screenOrientation="portrait"></activity>
+       <activity android:name="com.hutchgrant.coconut.Communicate" ></activity>
+              <activity android:name="com.hutchgrant.contacts.InviteDisplay" ></activity>
+       
+       <service android:enabled="true" android:name="com.hutchgrant.coconut.provider" />
+       <service android:enabled="true" android:name="com.hutchgrant.coconut.syncProvider" />
+       <service android:enabled="true" android:name="com.google.android.gms.internal" />
+       
+       
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:layout_height="wrap_content" android:id="@+id/list_profile_userid" android:text="TextView" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content"></TextView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/list_profile_username" android:text="TextView" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content"></TextView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/list_profile_location" android:text="TextView" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content"></TextView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/list_profile_profile" android:text="TextView" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content"></TextView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/list_profile_imgurl" android:text="TextView" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content"></TextView>
+     <TextView android:layout_height="wrap_content" android:id="@+id/list_profile_token" android:text="TextView" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content"></TextView>
+        
+</LinearLayout>

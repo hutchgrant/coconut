@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LauncherMain" >
+
+    <Button
+        android:id="@+id/user_feed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/friend_feed_btn"
+        android:layout_alignBottom="@+id/friend_feed_btn"
+        android:layout_marginLeft="36dp"
+        android:layout_toRightOf="@+id/camera_btn"
+        android:background="@drawable/profilebutton" />
+
+    <Button
+        android:id="@+id/friend_feed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/friendactivity_button" />
+
+    <Button
+        android:id="@+id/btn_sync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ImgGal_btn"
+        android:layout_alignBottom="@+id/ImgGal_btn"
+        android:layout_alignLeft="@+id/circles_btn"
+        android:background="@drawable/button"
+        android:text="Circles" />
+
+    <Button
+        android:id="@+id/circles_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/camera_btn"
+        android:layout_alignBottom="@+id/camera_btn"
+        android:layout_alignLeft="@+id/user_feed_btn"
+        android:background="@drawable/button"
+        android:text="Circles" />
+
+    <Button
+        android:id="@+id/ImgGal_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/camera_btn"
+        android:layout_below="@+id/camera_btn"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/button"
+        android:text="Camera" />
+
+    <Button
+        android:id="@+id/camera_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/friend_feed_btn"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button"
+        android:text="Camera" />
+
+</RelativeLayout>

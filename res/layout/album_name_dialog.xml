@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<RadioGroup
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_create_album"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:checked="true"
+            android:text="Create new Album" />
+
+        <TextView
+            android:id="@+id/txt_create_alb"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:text="@string/album_name"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/album_nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:visibility="visible" >
+
+            <requestFocus />
+        </EditText>
+
+        <RadioButton
+            android:id="@+id/radio_addto_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Add to Album" />
+
+        <TextView
+            android:id="@+id/txt_addto_alb"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Image_to_album"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/alb_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/alb_dialog_horiz"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_albCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create" />
+
+        <Button
+            android:id="@+id/btnAlbDiagExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take another photo" />
+    </LinearLayout>
+
+</LinearLayout>

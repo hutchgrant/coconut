@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linlayout_header"
+        style="@style/btnStyleArsenic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03" >
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message to:"
+            android:textAppearance="@style/WhiteText" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/msgList"
+        style="@style/listviewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.58"
+        android:drawSelectorOnTop="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        android:visibility="visible"
+        android:windowSoftInputMode="adjustResize" 
+        android:divider="@android:color/transparent"
+  android:dividerHeight="10.0sp">
+
+    </ListView>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="335dp"
+            android:layout_height="132dp"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/edit_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/btn_sms"
+                style="@style/btnStyleArsenic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEND" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
